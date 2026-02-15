@@ -1,0 +1,15 @@
+name: streamlit-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit
+      - pandas
+      - numpy
+      - scikit-learn
+      - xgboost
+      - joblib
+      - matplotlib
+      - seaborn
